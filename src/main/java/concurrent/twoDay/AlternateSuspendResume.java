@@ -4,6 +4,7 @@ package concurrent.twoDay;
  * 下面我们给出不用上述两个方法来实现线程挂起和恢复的策略——设置标志位。
  * 通过该方法实现线程的挂起和恢复有一个很好的地方，就是可以在线程的指定位置实现线程的挂起和恢复，而不用担心其不确定性。
  * 
+ * 
  **/
 public class AlternateSuspendResume implements Runnable {
 
